@@ -143,6 +143,10 @@ body { margin:65px;
   width:200px;
   height:55px;
   padding:25px;
+  padding-bottom:0px;
+  text-align:center;
+  font-size:22px;
+
 }
 
 #hi2:after {
@@ -155,7 +159,7 @@ body { margin:65px;
   border: 1em solid transparent;
   border-left-color:#8e8e8e;
   border-right: 0;
-  border-bottom: 0;
+  border-top: 0;
   margin-top: -0.5em;
   margin-right: -1em;
 }
