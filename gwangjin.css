@@ -138,8 +138,9 @@ body { margin:65px;
 }
 
 #hi4 {
+  display:none;
   position: relative;
-  background:white;
+  background:#8e8e8e;
   border-radius: .7em;
   width:200px;
   height:60px;
@@ -155,7 +156,7 @@ body { margin:65px;
   width: 0;
   height: 0;
   border: 1em solid transparent;
-  border-right-color:white;
+  border-right-color:#8e8e8e;
   border-left: 0;
   border-bottom: 0;
   margin-top: -0.5em;
@@ -295,12 +296,14 @@ body { margin:65px;
 }
 
 #chcolor2{
+  display:none;
   position: relative;
-  background:white;
+  background:#8e8e8e;
   border-radius: .7em;
   width:200px;
   height:40px;
   padding:25px;
+  margin-top: 40px;
   margin-bottom:35px;
   font-size:22px;
   text-align:center;
@@ -314,36 +317,9 @@ body { margin:65px;
   width: 0;
   height: 0;
   border: 1em solid transparent;
-  border-right-color:white;
-  border-left: 0;
-  border-bottom: 0;
-  margin-top: -0.5em;
-  margin-left: -1em;
-}
-
-#chcolor3{
-  position: relative;
-  background:#8e8e8e;
-  border-radius: .7em;
-  width:200px;
-  height:40px;
-  padding:25px;
-  margin-bottom:35px;
-}
-
-#chcolor3:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 0;
-  height: 0;
-  border: 1em solid transparent;
   border-right-color:#8e8e8e;
   border-left: 0;
   border-bottom: 0;
   margin-top: -0.5em;
   margin-left: -1em;
 }
-
-
