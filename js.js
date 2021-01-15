@@ -1,6 +1,11 @@
 function myFunction(){
     var who = document.getElementById("whoru").value;
-    document.getElementById("hi").innerHTML = "Hello "+who+"!";
-    //document.getElementById("hi").style.backgroundColor="gray";
-    document.getElementById("hi").setAttribute("id", "hi2");
+    if(who !== ""){
+        document.getElementById("hi").style.display = 'block';
+        document.getElementById("hi").innerHTML = "Hello "+who+"!";
+    }
+    else{
+        document.getElementById("hi").style.display = 'block';
+        document.getElementById("hi").innerHTML = "What's your name?";
+    }
 }
