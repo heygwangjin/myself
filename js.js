@@ -4,7 +4,7 @@ function myFunction(){
   if(who !== ""){
     document.getElementById("hi").style.display = 'block';
     document.getElementById("hi").innerHTML = "Hello "+who+"!";
-    document.getElementById("gwangjin").src= "images/welcome.png"
+    document.getElementById("gwangjin").src = "images/welcome.png"
     document.getElementById("project").style.display = 'block';
     document.getElementById("project").innerHTML = who + ", can I show you my project?";
     document.getElementById("yesno").style.display = 'block';
@@ -19,6 +19,7 @@ function myFunction(){
     document.getElementById("gwangjin").src= "images/gwangjin.png"
   }
 }
+
 function changeColor(){
   var currentString = document.getElementById("chcolor").value;
 
@@ -38,8 +39,17 @@ function changeColor(){
 }
 
 function ckbutton(){
+  document.getElementById("gwangjin").src = "images/welcome.png";
   document.getElementById("ckevent").style.display = "block";
   document.getElementById("yes").style.display = "inline";
   document.getElementById("yes").style.textDecoration = "none";
-  //document.getElementById("no").style.display = "none";
+  document.getElementById("no").style.display = "none";
+}
+
+function ckbutton2(){
+  document.getElementById("gwangjin").src = "images/crying.png";
+  document.getElementById("ckevent").style.display = "block";
+  document.getElementById("no").style.display = "inline";
+  document.getElementById("no").style.textDecoration = "none";
+  document.getElementById("yes").style.display = "none";
 }
